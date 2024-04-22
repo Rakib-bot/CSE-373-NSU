@@ -31,3 +31,7 @@ int main()
     }
     return 0;
 }
+// Time Complexity: O(n^2) [Worst Case] , O(n) [Best Case]
+// Space Complexity: O(1) [Worst Case] , O(1) [Best Case]
+//is it stable? yes
+

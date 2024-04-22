@@ -47,7 +47,7 @@ void mergeSort(vector<int> &v, int left, int right)
         mergeSort(v, mid + 1, right);//right child call
 
         merge(v, left, mid, right);//parent call
-        
+
         //this three function call is like post-order traversal of binary tree
     }
 }
@@ -61,3 +61,8 @@ int main()
     }
     return 0;
 }
+
+// Time complexity: O(nlogn) [Worst Case] , O(nlogn) [Best Case]
+// Space complexity: O(n) [Worst Case] , O(n) [Best Case]
+// Stable: Yes 
+
