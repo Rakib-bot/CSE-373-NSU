@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+//max heap
 void heapify(vector<int> &v, int n, int i)
 {
     // this function is used to maintain the heap property and it works until the root node is greater than its child node
