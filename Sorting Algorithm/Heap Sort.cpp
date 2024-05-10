@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-//max heap
+// max heap
 void heapify(vector<int> &v, int n, int i)
 {
     // this function is used to maintain the heap property and it works until the root node is greater than its child node
@@ -44,8 +44,9 @@ void heapSort(vector<int> &v, int n)
 }
 int main()
 {
-    vector<int> v = {11, 11, 13, 5, 6, 7, -1};
-    heapSort(v, v.size());
+    vector<int> v = {8, 5, 14, 11, 84, 19, 9, 23, 10};
+    // heapSort(v, v.size());
+    build_Max_Heap(v, v.size());
     for (int i = 0; i < v.size(); i++)
     {
         cout << v[i] << " ";
